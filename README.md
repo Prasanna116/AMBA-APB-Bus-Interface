@@ -27,20 +27,23 @@ This project pushes APB to its limits by integrating **multiple real-world perip
 
 ## 🔹 System Overview  
 
-          +-------------------+
-          |     APB Master    |
-          |-------------------|
-          | Generates PADDR,  |
-          | PSELx, PENABLE,   |
-          | PWRITE, PWDATA    |
-          +---------+---------+
-                    |
-     -----------------------------------
-     |                 |               |
-+-----------+    +-----------+    +-----------+
-| Memory    |    | GPIO      |    | UART      |
-|  Slave    |    |  Slave    |    |  Slave    |
-+-----------+    +-----------+    +-----------+
+      +-------------------+
+      |     APB Master    |
+      |------------------|
+      | Generates:        |
+      | - PADDR           |
+      | - PSELx           |
+      | - PENABLE         |
+      | - PWRITE          |
+      | - PWDATA          |
+      +---------+---------+
+                |
+      -----------------------
+      |         |           |
+ +----------+ +----------+ +----------+
+ | Memory   | | GPIO     | | UART     |
+ |  Slave   | |  Slave   | |  Slave   |
+ +----------+ +----------+ +----------+
 
 
 
