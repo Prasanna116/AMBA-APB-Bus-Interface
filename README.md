@@ -24,6 +24,7 @@ This project pushes APB to its limits by integrating **multiple real-world perip
 - **Synchronous and asynchronous peripheral support**  
 
 ---
+<img width="897" height="585" alt="image" src="https://github.com/user-attachments/assets/514f3e0e-9d08-43d7-b9fd-6a6770eca37e" />
 
 ## 🔹 System Overview  
 
